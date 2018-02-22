@@ -1,0 +1,28 @@
+body{
+	margin: 0; padding: 0; font-size: 20px;
+	background-color: #e0a021;
+
+}
+header {
+	background: #e0a021;  padding: 3% 1%;
+}
+section{
+	display: flex; justify-content: space-evenly;
+}
+section img{ width: 100%;}
+.block{width: 32%;
+}
+.block img {
+	width: 100%; height: 300px;
+}
+.block-content {
+	padding: 1%
+}
+.block-content h3 {
+	margin-left: 1% 0
+}
+@media screen and (max-width: 500px)
+{ flex-direction:column; }
+{width: 96%; order:2;}
+{width:96%;order: 1}
+{ width: 96%; order: 3 }
